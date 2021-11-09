@@ -11,19 +11,38 @@
 include("path.php");
 include(ROOT_PATH . "/includes/header.php"); ?>
 
-  <!-- login form *start* -->
-<form action="index.php" method="post" class="loginForm" autocomplete="off">
+<div class="wrapper">
+  <div class="container">
+    <div class="phone-app">
 
-  <!-- fieldsets -->
-  <fieldset>
-    <h2 class="fs-title">Login</h2>
-    <h3 class="fs-subtitle">Welcome Back!</h3>
-    <input type="text" name="email" placeholder="Email" autocomplete="off" />
-    <input type="password" name="pass" placeholder="Password" />
-    <input type="button" name="submit" class="submit action-button" value="Submit" />
-  </fieldset>
+    </div>
+      <!-- login form *start* -->
+    <div class="form-data">
+    <form action="">
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <input type="text" name="" id="" placeholder="Phone Number, Email or Username">
+      <input type="text" name="" id="" placeholder="Password">
+      <button class="form-btn">Login</button>
+      <a href="" class="reset">Forgot Password?</a>
+    </form>
+    <div class="sign-up">
+      Don't have an account? <a href="registration.php">Sign Up</a>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+    <nav class="footer-nav">
+      <ul>
+        <li>About</li>
+        <li>Help</li>
+        <li>Privacy</li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
-</form>
   <!-- login form *end* -->
     
 </body>
