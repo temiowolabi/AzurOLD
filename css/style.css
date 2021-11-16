@@ -1,4 +1,4 @@
-/* .form-data {
+ .form-data {
     width: 100%;
     max-width: 35rem;
     margin: 3rem;
@@ -123,7 +123,6 @@ li{
     width: 100%;
     max-width: 93rem;
     margin: 3rem auto 0;
-   /* background-color: violet;
   }
   
   .wrapper > .container {
@@ -142,7 +141,7 @@ li{
             flex: 1;
     height: 52rem;
   } 
-  */
+  
 
 
   /*Form CSS*/
@@ -350,4 +349,173 @@ li{
 .fit-image {
     width: 100%;
     object-fit: cover
+}
+
+/*Account CSS*/
+
+.user {
+    height: 100px;
+    width:100%;
+    position:relative;
+    background-color:#040D20;
+    background-color:#043AAC;
+  }
+
+.user .user-name {
+    margin-top: 17px;
+    margin-left:-10px;
+}
+
+.user .user-name h5 a {
+    color:rgba(255,255,255,1);
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.user .user-name h5 a {
+    color:rgba(255,255,255,1);
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+.user .user-name span a {
+    color:rgba(255,255,255,0.5);
+    font-size:0.8em;
+}
+
+.user .dropdown {
+    position:absolute;
+    bottom: 15px;
+    right: 15px;
+    color:#5584ff;
+}
+
+li.ap-title{
+    color:white;
+    text-align:center;
+    margin:30px 0px 15px 0px;
+    font-size:24px;
+    font-weight:bold;
+  }
+
+.dashboardNavigation a:focus,a:hover,a{
+    outline: none;
+    text-decoration: none;
+}
+
+.dashboardNavigation li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboardNavigation i{
+    font-size: 20px;
+}
+
+.dashboardNavigation .dashboardActive a{
+    background: #122143;
+    border-left: 5px solid #5584ff;
+    padding-left: 15px;
+}
+
+.dashboardNavigation a:hover {
+    background: #122143 none repeat scroll 0 0;
+    border-left: 5px solid #5584ff;
+    display: block;
+    padding-left: 15px;
+}
+
+.hidden-xs{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/*Navbar CSS*/
+.navbar{
+    position: fixed;
+    background-color: #043AAC; /*TODO for Temi: Make Transparent after addinf background*/
+    width: 100%;
+    padding: 30px 0;
+    top: 0;
+    z-index: 999;
+    transition: .3s linear;
+}
+
+.inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 40px;
+    height: 32px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu-toggler{
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
+}
+
+.menu-toggler span{
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    position: relative;
+    transition: .3s linear;
+}
+
+.navbar-menu a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .2s linear;
+}
+
+.navbar-menu a:hover{
+    color: green;
+}
+
+
+.sticky{
+    background-color: #fff;
+    padding: 10px 0;
+    position: fixed;
+}
+
+.sticky .logo{
+    background-image: url("../images/logo.png");
+}
+
+.sticky .navbar-menu a{
+    color: #111;
+}
+
+.sticky .menu-toggler{
+    background-color: #111;
+}
+
+.nothing{
+    margin-top: 15em; /*DELETE SOON*/
 }

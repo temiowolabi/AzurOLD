@@ -35,8 +35,13 @@ include(ROOT_PATH . "/includes/header.php"); ?>
                                 <div class="col-5">
                                     <h2 class="steps">Step 1 - 3</h2>
                                 </div>
-                            </div> <label class="fieldlabels">Email: *</label> <input type="email" name="email" placeholder="Email" /> <label class="fieldlabels">Username: *</label> <input type="text" name="uname" placeholder="UserName" /> <label class="fieldlabels">Password: *</label> <input type="password" name="pwd" placeholder="Password" /> <label class="fieldlabels">Confirm Password: *</label> <input type="password" name="cpwd" placeholder="Confirm Password" />
-                        </div> <input type="button" name="next" class="next action-button" value="Next" />
+                            </div> 
+                            <label class="fieldlabels">Email: *</label> <input type="email" name="email" placeholder="Email" />
+                            <label class="fieldlabels">Username: *</label> <input type="text" name="uname" placeholder="UserName" /> 
+                            <label class="fieldlabels">Password: *</label> <input type="password" name="pwd" placeholder="Password" />
+                            <label class="fieldlabels">Confirm Password: *</label> <input type="password" name="cpwd" placeholder="Confirm Password" />
+                        </div> 
+                        <input type="button" name="next" class="next action-button" value="Next" />
                     </fieldset>
                     <fieldset>
                         <div class="form-card">
@@ -47,7 +52,10 @@ include(ROOT_PATH . "/includes/header.php"); ?>
                                 <div class="col-5">
                                     <h2 class="steps">Step 2 - 3</h2>
                                 </div>
-                            </div> <label class="fieldlabels">First Name: *</label> <input type="text" name="fname" placeholder="First Name" /> <label class="fieldlabels">Last Name: *</label> <input type="text" name="lname" placeholder="Last Name" /> <label class="fieldlabels">Contact No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> 
+                            </div>
+                             <label class="fieldlabels">First Name: *</label> <input type="text" name="fname" placeholder="First Name" />
+                             <label class="fieldlabels">Last Name: *</label> <input type="text" name="lname" placeholder="Last Name" />
+                              <label class="fieldlabels">Contact No.: *</label> <input type="text" name="phno" placeholder="Contact No." /> 
                         </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                     </fieldset>
                     <fieldset>
