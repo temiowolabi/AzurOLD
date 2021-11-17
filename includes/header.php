@@ -27,9 +27,9 @@
                 <a href="">Dashboard</a>
                 <a href="">Devices</a>
                 <a href="">Set Up a Device</a>
-                <a href="">Account</a>
+                <a href="account.php">Account</a>
                 <a href="">Control Centre</a>
-                <a href="">Help</a>
+                <a href="help.php">Help</a>
             </div>
         </div>
     </div>
